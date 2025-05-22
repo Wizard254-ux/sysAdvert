@@ -49,10 +49,10 @@ export default function TruckRoutingApp() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header / Navigation */}
-      <header className=" px-1 py-6 stciky top-0 sticky top-0 z-50 bg-white shadow-sm">
+      <header className=" px-1 py-6 stciky top-0 sticky z-50 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center  md:mb-0">
-            <h1 className="md:text-3xl text-xl font-bold text-navy-900">INSPire<span className="text-blue-900">hub.</span></h1>
+            <h1 className="md:text-3xl text-xl font-bold text-navy-900">Spa<span className="text-blue-900">pro.</span></h1>
             <div className="h-3 w-3 bg-yellow-500 rounded-full ml-1 mb-2"></div>
           </div>
           
@@ -146,7 +146,7 @@ export default function TruckRoutingApp() {
 </div>
        
        <p className="text-gray-600 my-5 md:my-6 lg:my-8 text-sm md:text-base lg:text-lg max-w-xl">
-         InspireHub creates stunning, customized websites for beauty salons, spas, 
+         Spapro creates stunning, customized websites for beauty salons, spas, 
          and cosmetic businesses. Transform your digital presence with our tailored 
          web solutions that attract clients and grow your beauty business.
        </p>

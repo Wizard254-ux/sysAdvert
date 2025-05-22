@@ -1,5 +1,5 @@
 import React from 'react';
-import { Palette, Smartphone, Globe } from 'lucide-react';
+import { Palette, Smartphone, Flower } from 'lucide-react';
 
 interface ServiceCardProps {
   icon: React.ReactNode;
@@ -26,7 +26,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description, bgC
 
 const Services: React.FC = () => {
   return (
-    <div className="w-full bg-white md:py-16 py-0 ">
+    <div className="w-full bg-white md:py-16 py-0 mb-6 md:mb-0 ">
       <div className=" mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center">
           {/* Left side - Website mockups for beauty businesses */}
@@ -61,7 +61,7 @@ const Services: React.FC = () => {
      <div className="text-xs text-gray-700">Massage</div>
    </div>
    <div className="bg-blue-100 rounded p-3 text-center">
-     <img src="/nails.png" alt="Nail service" className="w-12 h-12 rounded-full mx-auto mb-2 object-cover" />
+     <img src="/nail1.png" alt="Nail service" className="w-12 h-12 rounded-full mx-auto mb-2 object-cover" />
      <div className="text-xs text-gray-700">Nails</div>
    </div>
  </div>
@@ -78,7 +78,7 @@ const Services: React.FC = () => {
    <div className="flex space-x-1 mb-2">
      <img src="/facial.png" alt="Facial" className="w-4 h-4 rounded object-cover" />
      <img src="/massage.png" alt="Massage" className="w-4 h-4 rounded object-cover" />
-     <img src="/nails.png" alt="Nails" className="w-4 h-4 rounded object-cover" />
+     <img src="/nail1.png" alt="Nails" className="w-4 h-4 rounded object-cover" />
    </div>
    <div className="h-2 bg-gray-200 rounded w-full"></div>
    <div className="h-2 bg-gray-200 rounded w-3/4"></div>
@@ -89,7 +89,7 @@ const Services: React.FC = () => {
 </div>
           
           {/* Right side - Content */}
-          <div className="lg:w-1/2 lg:pl-12">
+          <div className="lg:w-1/2 lg:pl-12 ">
             <div className="mb-8">
               <h2 className="text-4xl lg:text-5xl font-bold text-navy-900 mb-4" style={{fontFamily: 'Volkhov, serif'}}>
                 Transform Your Beauty<br />Business Online
@@ -111,11 +111,11 @@ const Services: React.FC = () => {
                 bgColor="bg-purple-500"
               />
               
-              <ServiceCard 
-                icon={<Globe size={24} className="text-white" />}
-                title="Online Booking & E-commerce"
-                description="Integrate appointment booking systems, service catalogs, and online payment processing to streamline your business operations and increase revenue."
-                bgColor="bg-blue-600"
+           <ServiceCard 
+              icon={<Flower size={24} className="text-white" />}
+              title="Spa Treatment Packages"
+              description="Luxurious spa experiences including aromatherapy massages, hot stone treatments, and rejuvenating body wraps designed to restore balance and tranquility."
+              bgColor="bg-purple-600"
               />
             </div>
           </div>

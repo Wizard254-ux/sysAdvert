@@ -92,10 +92,10 @@ const BeautyBusinessesCarousel = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Beauty Businesses Trust InspireHub
+             Businesses Trust Spapro
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            See how we've helped beauty businesses transform their online presence and grow their revenue with custom web solutions.
+            See how we've helped  businesses transform their online presence and grow their revenue with custom web solutions.
           </p>
         </div>
         
@@ -179,7 +179,7 @@ const BeautyBusinessesCarousel = () => {
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="bg-white rounded-xl p-2 shadow-md">
             <div className="text-3xl font-bold text-pink-500 mb-2">50+</div>
-            <div className="text-gray-600">Kenyan Beauty Businesses Served</div>
+            <div className="text-gray-600">Kenyan Businesses Served</div>
           </div>
           <div className="bg-white rounded-xl p-2 shadow-md">
             <div className="text-3xl font-bold text-purple-500 mb-2">95%</div>

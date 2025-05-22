@@ -10,7 +10,7 @@ export default function TestimonialsSection() {
       id: 0,
       name: "Grace Wanjiku",
       position: "Owner, Elegance Beauty Spa - Westlands",
-      text: "InspireHub transformed our online presence completely. Our website is stunning and the online booking system has increased our appointments by 45%. Our clients love how easy it is to book services now.",
+      text: "Spapro transformed our online presence completely. Our website is stunning and the online booking system has increased our appointments by 45%. Our clients love how easy it is to book services now.",
       avatar: "/client.png"
     },
     {
@@ -24,14 +24,14 @@ export default function TestimonialsSection() {
       id: 2,
       name: "Fatuma Hassan",
       position: "CEO, Nyota Nails & Beauty - Mombasa",
-      text: "Professional service and excellent results. InspireHub understood our vision and created a website that perfectly represents our brand. The client management system has streamlined our operations significantly.",
+      text: "Professional service and excellent results. Spapro understood our vision and created a website that perfectly represents our brand. The client management system has streamlined our operations significantly.",
       avatar: "/client2.png"
     },
     {
       id: 3,
       name: "Michael Ochieng",
       position: "Founder, Uzuri Cosmetics - Nairobi CBD",
-      text: "Working with InspireHub was the best decision for our business. Their SEO expertise helped us rank #1 for 'cosmetics Nairobi' and we've seen a 200% increase in online orders.",
+      text: "Working with Spapro was the best decision for our business. Their SEO expertise helped us rank #1 for 'cosmetics Nairobi' and we've seen a 200% increase in online orders.",
       avatar: "/client3.png"
     },
 

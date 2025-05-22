@@ -127,7 +127,7 @@ export default function Footer() {
             <div className="md:col-span-1">
               <div className="mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">
-                  INSPire<span className="text-blue-800">hub</span>
+                  Spa<span className="text-blue-800">pro</span>
                 </h3>
               </div>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -139,10 +139,9 @@ export default function Footer() {
             <div>
               <h4 className="font-semibold text-gray-900 mb-4">Services</h4>
               <ul className="space-y-2">
-                <li><button className="text-gray-600 hover:text-pink-500 text-sm text-left transition-colors">Website Design</button></li>
-                <li><button className="text-gray-600 hover:text-pink-500 text-sm text-left transition-colors">E-commerce Development</button></li>
-                <li><button className="text-gray-600 hover:text-pink-500 text-sm text-left transition-colors">Online Booking Systems</button></li>
-                <li><button className="text-gray-600 hover:text-pink-500 text-sm text-left transition-colors">SEO & Digital Marketing</button></li>
+                <li><button className="text-gray-600 hover:text-pink-500 text-sm text-left transition-colors">Beauty & Salon  Service Management</button></li>
+                <li><button className="text-gray-600 hover:text-pink-500 text-sm text-left transition-colors">Spa management </button></li>
+
               </ul>
             </div>
 
@@ -163,7 +162,7 @@ export default function Footer() {
               <ul className="space-y-2 mb-6">
                 <li className="text-gray-600 text-sm">📍 Machakos, Kenya</li>
                 <li className="text-gray-600 text-sm">📞 +254 700 123 456</li>
-                <li className="text-gray-600 text-sm">✉️ beauty@inspirehub.co.ke</li>
+                <li className="text-gray-600 text-sm">✉️ service@Spapro.co.ke</li>
               </ul>
               
         
@@ -180,7 +179,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="border-t border-gray-200 mt-8 pt-6 text-center">
             <p className="text-gray-500 text-sm">
-              © 2024 InspireHub. All rights reserved. | Privacy Policy | Terms of Service
+              © 2024 Spapro. All rights reserved. | Privacy Policy | Terms of Service
             </p>
           </div>
         </div>
