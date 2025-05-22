@@ -49,17 +49,17 @@ export default function TruckRoutingApp() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header / Navigation */}
-      <header className=" px-4 py-6 sticky top-0 z-50 bg-white shadow-sm">
+      <header className=" px-1 py-6 stciky top-0 sticky top-0 z-50 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center  md:mb-0">
             <h1 className="md:text-3xl text-xl font-bold text-navy-900">INSPire<span className="text-blue-900">hub.</span></h1>
             <div className="h-3 w-3 bg-yellow-500 rounded-full ml-1 mb-2"></div>
           </div>
           
-         <nav className="flex flex-row justify-center gap-1 sm:gap-4 ">
+         <nav className="flex flex-row justify-center sm:gap-1 ">
   <button 
     onClick={() => handleTabChange('home')}
-    className={`w-20 sm:w-24 h-8 sm:h-10 rounded text-xs sm:text-base transition-all border ${
+    className={`w-18 sm:w-24 h-8 sm:h-10 rounded text-xs sm:text-base transition-all border ${
       activeTab === 'home' 
         ? 'bg-gray-100 border-gray-300 font-medium' 
         : 'hover:bg-gray-50 border-transparent'
@@ -70,7 +70,7 @@ export default function TruckRoutingApp() {
         
         <button 
           onClick={() => handleTabChange('services')}
-          className={`w-20 sm:w-24 h-8 sm:h-10 rounded text-xs sm:text-base transition-all border ${
+          className={`w-18 sm:w-24 h-8 sm:h-10 rounded text-xs sm:text-base transition-all border ${
             activeTab === 'services' 
               ? 'bg-gray-100 border-gray-300 font-medium' 
               : 'hover:bg-gray-50 border-transparent'
@@ -81,7 +81,7 @@ export default function TruckRoutingApp() {
 
         <button 
           onClick={() => handleTabChange('portfolio')}
-          className={`w-20 sm:w-24 h-8 sm:h-10 rounded text-xs sm:text-base transition-all border ${
+          className={`w-18 sm:w-24 h-8 sm:h-10 rounded text-xs sm:text-base transition-all border ${
             activeTab === 'portfolio' 
               ? 'bg-gray-100 border-gray-300 font-medium' 
               : 'hover:bg-gray-50 border-transparent'
@@ -92,7 +92,7 @@ export default function TruckRoutingApp() {
 
         <button 
           onClick={() => handleTabChange('testimonials')}
-          className={`w-20 sm:w-24 h-8 sm:h-10 rounded text-xs sm:text-base transition-all border ${
+          className={`w-18 sm:w-24 h-8 sm:h-10 rounded text-xs sm:text-base transition-all border ${
             activeTab === 'testimonials' 
               ? 'bg-gray-100 border-gray-300 font-medium' 
               : 'hover:bg-gray-50 border-transparent'
@@ -103,7 +103,7 @@ export default function TruckRoutingApp() {
 
         <button 
           onClick={() => handleTabChange('contact')}
-          className={`w-20 sm:w-24 h-8 sm:h-10 rounded text-xs sm:text-base transition-all border ${
+          className={`w-18 sm:w-24 h-8 sm:h-10 rounded text-xs sm:text-base transition-all border ${
             activeTab === 'contact' 
               ? 'bg-gray-100 border-gray-300 font-medium' 
               : 'hover:bg-gray-50 border-transparent'
